@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Sparkles, ArrowLeft, TrendingUp, Package, DollarSign, Layers } from 'lucide-react'
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, BarChart, Bar, XAxis, YAxis } from 'recharts'
 
-const BACKEND_URL = 'https://92bf1de3700560d7-103-51-54-50.serveousercontent.com'
+const BACKEND_URL = 'https://c6302f492a1ffce9-103-51-54-50.serveousercontent.com'
 
 interface Product {
   product_id: string
