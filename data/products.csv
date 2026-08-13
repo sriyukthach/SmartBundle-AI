@@ -1,22 +1,22 @@
 product_id,name,category,price,stock,profit_margin,tags
-P001,Wireless Mouse,Accessories,799,50,0.25,wireless mouse computer office desk ergonomic keyboard laptop
-P002,Mechanical Keyboard,Accessories,2499,30,0.22,mechanical keyboard computer office desk typing mouse laptop
+P001,Wireless Mouse,Accessories,799,50,0.25,wireless mouse computer office desk ergonomic
+P002,Mechanical Keyboard,Accessories,2499,30,0.22,mechanical keyboard computer office desk typing
 P003,Laptop Stand,Accessories,1499,25,0.30,laptop stand computer desk office ergonomic riser
-P004,USB-C Hub,Accessories,1299,40,0.28,usb-c hub laptop computer adapter ports connectivity
-P005,Laptop Sleeve,Accessories,999,35,0.32,laptop sleeve laptop protection computer travel carrying
-P006,Wireless Headphones,Audio,2999,20,0.20,wireless headphones audio bluetooth music sound
-P007,Webcam,Electronics,1999,25,0.24,webcam camera video streaming computer meetings
-P008,USB-C Cable,Accessories,499,80,0.35,usb-c cable charging laptop phone computer connectivity
-P009,Power Bank,Electronics,1499,45,0.27,power bank portable battery charging phone electronics
-P010,Bluetooth Speaker,Audio,2499,20,0.23,bluetooth speaker audio music sound wireless
-P011,Smartphone Stand,Accessories,699,40,0.30,smartphone stand phone holder desk charging
+P004,USB-C Hub,Accessories,1299,40,0.28,usb-c hub laptop adapter ports connectivity
+P005,Laptop Sleeve,Accessories,999,35,0.32,laptop sleeve laptop protection computer carrying
+P006,Wireless Headphones,Audio,2999,20,0.20,wireless headphones bluetooth audio music sound
+P007,Webcam,Electronics,1999,25,0.24,webcam camera video streaming meetings
+P008,USB-C Cable,Accessories,499,80,0.35,usb-c cable charging laptop phone connectivity
+P009,Power Bank,Electronics,1499,45,0.27,power bank portable battery charging
+P010,Bluetooth Speaker,Audio,2499,20,0.23,bluetooth speaker audio music sound
+P011,Smartphone Stand,Accessories,699,40,0.30,smartphone stand phone holder desk
 P012,Phone Case,Accessories,599,60,0.35,phone case smartphone protection mobile cover
 P013,Noise Cancelling Earbuds,Audio,3499,25,0.28,earbuds wireless audio bluetooth music noise cancelling
-P014,Studio Microphone,Audio,4999,15,0.25,studio microphone audio recording voice streaming podcast
+P014,Studio Microphone,Audio,4999,15,0.25,studio microphone audio recording voice podcast
 P101,DSLR Camera,Electronics,45000,12,0.15,dslr camera photography lens photo video
 P102,64GB Memory Card,Accessories,1200,50,0.50,memory card sd card camera storage photography
-P103,Camera Bag,Accessories,1800,25,0.40,camera bag dslr photography camera protection travel
-P104,Smart Fitness Watch,Electronics,4999,30,0.30,fitness watch smartwatch activity tracker sports health
+P103,Camera Bag,Accessories,1800,25,0.40,camera bag dslr photography camera protection
+P104,Smart Fitness Watch,Electronics,4999,30,0.30,fitness watch smartwatch activity tracker sports
 P105,E-Reader Tablet,Electronics,8999,18,0.22,e-reader tablet ebook reading digital books
 P106,Wireless Router,Electronics,2299,35,0.25,wireless router wifi internet network connectivity
 P108,Smart Plug,Electronics,899,60,0.35,smart plug smart home switch automation
@@ -28,13 +28,13 @@ P205,Foam Roller,Fitness,899,35,0.50,foam roller fitness recovery massage workou
 P206,Skipping Rope,Fitness,299,70,0.60,skipping rope fitness cardio workout exercise
 P207,Exercise Ball,Fitness,999,25,0.40,exercise ball fitness workout core balance gym
 P208,Gym Bag,Fitness,1499,30,0.45,gym bag fitness workout sports training
-P301,French Press Coffee Maker,Kitchenware,1899,20,0.40,french press coffee maker brewing coffee kitchen
-P302,Insulated Travel Mug,Kitchenware,999,35,0.50,travel mug insulated coffee drink beverage
+P301,French Press Coffee Maker,Kitchenware,1899,20,0.40,french press coffee maker brewing coffee
+P302,Insulated Travel Mug,Kitchenware,999,35,0.50,travel mug insulated coffee beverage
 P303,Electric Kettle,Kitchenware,1599,25,0.35,electric kettle kitchen water boiling coffee
 P304,Non-Stick Frying Pan,Kitchenware,1299,30,0.40,frying pan non-stick cooking kitchen cookware
-P305,Chef Knife Set,Kitchenware,2999,15,0.45,chef knife kitchen cooking cutting cookware
+P305,Chef Knife Set,Kitchenware,2999,15,0.45,chef knife kitchen cooking cutting
 P306,Digital Kitchen Scale,Kitchenware,699,40,0.50,kitchen scale digital cooking baking food measurement
-P307,Air Fryer,Kitchenware,5999,12,0.25,air fryer kitchen cooking appliance
+P307,Air Fryer,Kitchenware,5999,12,0.25,air fryer kitchen cooking appliance frying
 P308,Stainless Steel Cookware Set,Kitchenware,4999,10,0.30,cookware stainless steel kitchen cooking pots pans
 P309,Blender Smoothie Maker,Kitchenware,2499,20,0.35,blender smoothie maker kitchen drinks food
 P310,Cutting Board Set,Kitchenware,899,45,0.50,cutting board kitchen cooking chopping food preparation
@@ -59,4 +59,3 @@ P602,Running Shoes,Apparel,3499,25,0.35,running shoes apparel footwear running s
 P603,Sports Hoodie,Apparel,1999,30,0.40,sports hoodie apparel clothing sports
 P604,Polarized Sunglasses,Apparel,1299,40,0.50,polarized sunglasses apparel eyewear outdoor
 P605,Backpack,Apparel,1799,35,0.45,backpack apparel bag travel carrying
-```
