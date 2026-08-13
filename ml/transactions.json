@@ -1,0 +1,8 @@
+[
+  {"transaction_id": "T001", "items": ["P001", "P002", "P003"]},
+  {"transaction_id": "T002", "items": ["P001", "P002"]},
+  {"transaction_id": "T003", "items": ["P001", "P003", "P004"]},
+  {"transaction_id": "T004", "items": ["P005", "P006", "P007"]},
+  {"transaction_id": "T005", "items": ["P005", "P006"]},
+  {"transaction_id": "T006", "items": ["P001", "P002", "P003"]}
+]

@@ -1,0 +1,16 @@
+product_id,product_name,category,price,stock,margin
+P001,Wireless Mouse,Accessories,799,50,0.25
+P002,Mechanical Keyboard,Accessories,2499,30,0.22
+P003,Laptop Stand,Accessories,1499,25,0.30
+P004,USB-C Hub,Accessories,1299,40,0.28
+P005,Laptop Sleeve,Accessories,999,35,0.32
+P006,Wireless Headphones,Audio,2999,20,0.20
+P007,Webcam,Electronics,1999,25,0.24
+P008,USB-C Cable,Accessories,499,80,0.35
+P009,Power Bank,Electronics,1499,45,0.27
+P010,Bluetooth Speaker,Audio,2499,20,0.23
+P011,Smartphone Stand,Accessories,699,40,0.30
+P012,Phone Case,Accessories,599,60,0.35
+P101,DSLR Camera,Electronics,45000,12,0.15
+P102,64GB Memory Card,Accessories,1200,50,0.50
+P103,Camera Bag,Accessories,1800,25,0.40

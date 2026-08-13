@@ -1,0 +1,65 @@
+[
+  {
+    "id": "P001",
+    "name": "Pro DSLR Camera",
+    "category": "Electronics",
+    "price": 45000,
+    "stock": 12,
+    "profit_margin": 0.18,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P002",
+    "name": "64GB SD Card",
+    "category": "Accessories",
+    "price": 1999,
+    "stock": 50,
+    "profit_margin": 0.40,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P003",
+    "name": "Camera Shoulder Bag",
+    "category": "Accessories",
+    "price": 2499,
+    "stock": 30,
+    "profit_margin": 0.35,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P004",
+    "name": "Heavy Duty Tripod",
+    "category": "Accessories",
+    "price": 3499,
+    "stock": 8,
+    "profit_margin": 0.25,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P005",
+    "name": "Ultra Slim Laptop",
+    "category": "Electronics",
+    "price": 65000,
+    "stock": 15,
+    "profit_margin": 0.12,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P006",
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 1299,
+    "stock": 60,
+    "profit_margin": 0.45,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "P007",
+    "name": "Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 3999,
+    "stock": 25,
+    "profit_margin": 0.30,
+    "image": "https://via.placeholder.com/150"
+  }
+]
