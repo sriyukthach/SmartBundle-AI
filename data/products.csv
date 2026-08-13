@@ -1,16 +1,62 @@
-product_id,product_name,category,price,stock,margin
-P001,Wireless Mouse,Accessories,799,50,0.25
-P002,Mechanical Keyboard,Accessories,2499,30,0.22
-P003,Laptop Stand,Accessories,1499,25,0.30
-P004,USB-C Hub,Accessories,1299,40,0.28
-P005,Laptop Sleeve,Accessories,999,35,0.32
-P006,Wireless Headphones,Audio,2999,20,0.20
-P007,Webcam,Electronics,1999,25,0.24
-P008,USB-C Cable,Accessories,499,80,0.35
-P009,Power Bank,Electronics,1499,45,0.27
-P010,Bluetooth Speaker,Audio,2499,20,0.23
-P011,Smartphone Stand,Accessories,699,40,0.30
-P012,Phone Case,Accessories,599,60,0.35
-P101,DSLR Camera,Electronics,45000,12,0.15
-P102,64GB Memory Card,Accessories,1200,50,0.50
-P103,Camera Bag,Accessories,1800,25,0.40
+product_id,name,category,price,stock,profit_margin,tags
+P001,Wireless Mouse,Accessories,799,50,0.25,desk office computer bluetooth keyboard laptop
+P002,Mechanical Keyboard,Accessories,2499,30,0.22,desk office computer typing laptop
+P003,Laptop Stand,Accessories,1499,25,0.30,desk office ergonomics laptop riser stand
+P004,USB-C Hub,Accessories,1299,40,0.28,adapter dongle ports usb cable charging
+P005,Laptop Sleeve,Accessories,999,35,0.32,laptop protection cover travel carry
+P006,Wireless Headphones,Audio,2999,20,0.20,music sound bluetooth audio earphone travel
+P007,Webcam,Electronics,1999,25,0.24,video stream desk conference
+P008,USB-C Cable,Accessories,499,80,0.35,charger charging power bank phone cord wire
+P009,Power Bank,Electronics,1499,45,0.27,portable charger battery power travel charging cable phone
+P010,Bluetooth Speaker,Audio,2499,20,0.23,music outdoor sound portable party speaker
+P011,Smartphone Stand,Accessories,699,40,0.30,phone desk stand holder dock charging
+P012,Phone Case,Accessories,599,60,0.35,phone protection cover bumper mobile accessory
+P013,Noise Cancelling Earbuds,Audio,3499,25,0.28,music wireless sound gym running travel earphone
+P014,Studio Microphone,Audio,4999,15,0.25,recording podcast voice mic webcam audio
+P101,DSLR Camera,Electronics,45000,12,0.15,photography camera lens photo memory card bag tripod
+P102,64GB Memory Card,Accessories,1200,50,0.50,storage sd card camera dslr memory photo video
+P103,Camera Bag,Accessories,1800,25,0.40,camera protection travel bag dslr pouch case
+P104,Smart Fitness Watch,Electronics,4999,30,0.30,fitness watch tracker step health sports gym
+P105,E-Reader Tablet,Electronics,8999,18,0.22,books reading tablet screen portable ebook
+P106,Wireless Router,Electronics,2299,35,0.25,wifi internet network router home speed
+P107,Portable Projector,Electronics,15999,10,0.20,movie cinema display video home theatre screen
+P108,Smart Plug,Electronics,899,60,0.35,smart home socket automation app control switch
+P201,Yoga Mat,Fitness,1299,30,0.50,workout gym yoga stretch exercise bands bottle
+P202,Resistance Bands,Fitness,499,50,0.60,workout gym fitness exercise stretch yoga
+P203,Stainless Water Bottle,Fitness,799,40,0.45,hydration gym travel workout water drink
+P204,Dumbbell Set,Fitness,2499,20,0.35,weights workout gym muscle training exercise
+P205,Foam Roller,Fitness,899,35,0.50,muscle recovery massage exercise yoga workout
+P206,Skipping Rope,Fitness,299,70,0.60,cardio workout exercise jump rope gym fitness
+P207,Exercise Ball,Fitness,999,25,0.40,core balance workout gym yoga stretch
+P208,Gym Bag,Fitness,1499,30,0.45,travel bag sports gym storage bottle clothes
+P301,French Press Coffee Maker,Kitchenware,1899,20,0.40,coffee brew kitchen mug breakfast kettle
+P302,Insulated Travel Mug,Kitchenware,999,35,0.50,coffee tea mug travel thermo hot bottle
+P303,Electric Kettle,Kitchenware,1599,25,0.35,water boil hot tea coffee kitchen appliance
+P304,Non-Stick Frying Pan,Kitchenware,1299,30,0.40,cooking pan kitchen chef knife stove
+P305,Chef Knife Set,Kitchenware,2999,15,0.45,kitchen cutting knife chef board cooking
+P306,Digital Kitchen Scale,Kitchenware,699,40,0.50,baking weight scale food kitchen measure
+P307,Air Fryer,Kitchenware,5999,12,0.25,cooking appliance oil free healthy kitchen frying
+P308,Stainless Steel Cookware Set,Kitchenware,4999,10,0.30,pots pans cooking kitchen set stove
+P309,Blender Smoothie Maker,Kitchenware,2499,20,0.35,juice smoothie blender kitchen drink health
+P310,Cutting Board Set,Kitchenware,899,45,0.50,kitchen board cutting knife chef wood
+P401,Hardcover Notebook,Stationery,399,100,0.65,paper writing notes diary pen office desk
+P402,Gel Pen Set,Stationery,249,150,0.70,pens writing ink notebook notes office desk
+P403,Desk Organizer,Stationery,899,40,0.45,desk office storage organizer pen notebook tray
+P404,Sticky Notes Bundle,Stationery,199,200,0.75,notes paper desk study planner office
+P405,Whiteboard Marker Set,Stationery,299,80,0.65,office presentation board marker writing pens
+P406,Ergonomic Footrest,Stationery,1699,20,0.35,desk office posture chair ergonomics comfort
+P501,LED Desk Lamp,Household,1199,40,0.40,light lamp desk reading study office led
+P502,Air Purifier,Household,7999,15,0.25,home air clean filter health room living
+P503,Vacuum Cleaner,Household,6499,12,0.22,clean home floor dust vacuum appliance
+P504,Microfiber Cleaning Cloths,Household,399,100,0.65,cleaning towel dust wipe home kitchen
+P505,Storage Organizer Bins,Household,899,50,0.50,storage box closet organizer home clothes
+P506,Essential Oil Diffuser,Household,1299,30,0.45,fragrance aroma home relaxation diffuser oil
+P507,Wall Clock,Household,699,40,0.50,time clock wall room decor home
+P508,Bath Towel Set,Household,1199,35,0.45,bath towel cotton bathroom home shower
+P509,Plant Pot Set,Household,799,45,0.55,decor garden plant pot indoor home living
+P510,Laundry Basket,Household,899,30,0.40,laundry basket clothes storage wash home
+P601,Cotton T-Shirt,Apparel,599,80,0.50,clothes shirt wear cotton casual apparel
+P602,Running Shoes,Apparel,3499,25,0.35,shoes sports running gym walk footwear
+P603,Sports Hoodie,Apparel,1999,30,0.40,hoodie jacket wear gym casual sports apparel
+P604,Polarized Sunglasses,Apparel,1299,40,0.50,sunglasses outdoor travel style glasses wear
+P605,Backpack,Apparel,1799,35,0.45,bag backpack travel school laptop carry sports
