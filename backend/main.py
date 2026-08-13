@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 
@@ -14,6 +15,18 @@ app = FastAPI(
     title="SmartBundle AI",
     description="AI-powered cart-aware product bundling API",
     version="1.0.0"
+)
+
+# --------------------------------
+# CORS Middleware (Allows Frontend Access)
+# --------------------------------
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows requests from any origin (e.g. React frontend)
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows GET, POST, OPTIONS, etc.
+    allow_headers=["*"],
 )
 
 
@@ -44,7 +57,6 @@ def root():
 @app.get("/products")
 def get_products():
     products = load_products()
-
     return products.to_dict(orient="records")
 
 
@@ -54,7 +66,6 @@ def get_products():
 
 @app.get("/products/{product_id}")
 def get_single_product(product_id: str):
-
     product = get_product(product_id)
 
     if product is None:
@@ -72,7 +83,6 @@ def get_single_product(product_id: str):
 
 @app.post("/recommend")
 def get_recommendations(request: CartRequest):
-
     if not request.cart_product_ids:
         raise HTTPException(
             status_code=400,
@@ -114,7 +124,6 @@ def get_recommendations(request: CartRequest):
 
 @app.post("/bundle")
 def create_bundle(request: CartRequest):
-
     if not request.cart_product_ids:
         raise HTTPException(
             status_code=400,
@@ -122,24 +131,19 @@ def create_bundle(request: CartRequest):
         )
 
     # Get AI recommendations
-    recommendations = recommend_bundle(
-        request.cart_product_ids,
-        top_n=3
+    recommendations = get_bundle_recommendations(
+        request.cart_product_ids
     )
 
     # Calculate total price of recommended products
-    bundle_price = 0
+    bundle_price = 0.0
 
     for product in recommendations:
-        bundle_price += product["price"]
+        bundle_price += float(product.get("price", 0))
 
     # Apply 5% bundle discount
     discount = round(bundle_price * 0.05, 2)
-
-    final_price = round(
-        bundle_price - discount,
-        2
-    )
+    final_price = round(bundle_price - discount, 2)
 
     return {
         "cart": request.cart_product_ids,
@@ -149,13 +153,13 @@ def create_bundle(request: CartRequest):
         "bundle_price": final_price
     }
 
-    # --------------------------------
+
+# --------------------------------
 # Merchant Dashboard
 # --------------------------------
 
 @app.get("/dashboard")
 def get_dashboard():
-
     # Demo business metrics
     total_orders = 150
     total_revenue = 487500
