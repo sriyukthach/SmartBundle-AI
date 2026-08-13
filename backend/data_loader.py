@@ -1,30 +1,22 @@
+import os
 import pandas as pd
-from pathlib import Path
-
-# Get the project root directory
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-# File paths
-PRODUCTS_FILE = BASE_DIR / "data" / "products.csv"
-TRANSACTIONS_FILE = BASE_DIR / "data" / "transactions.csv"
-
 
 def load_products():
-    """Load product information."""
-    return pd.read_csv(PRODUCTS_FILE)
-
-
-def load_transactions():
-    """Load transaction data."""
-    return pd.read_csv(TRANSACTIONS_FILE)
-
+    """Loads all products from the CSV file."""
+    base_path = os.path.dirname(__file__)
+    csv_path = os.path.abspath(os.path.join(base_path, '..', 'data', 'products.csv'))
+    
+    if os.path.exists(csv_path):
+        df = pd.read_csv(csv_path)
+        return df
+    return pd.DataFrame()
 
 def get_product(product_id):
-    """Get details of a specific product."""
-    products = load_products()
-    result = products[products["product_id"] == product_id]
-
-    if result.empty:
-        return None
-
-    return result.iloc[0].to_dict()
+    """Finds and returns a single product by ID."""
+    df = load_products()
+    if not df.empty:
+        # Match string or integer product IDs cleanly
+        match = df[df['product_id'].astype(str) == str(product_id)]
+        if not match.empty:
+            return match.iloc[0].to_dict()
+    return None
