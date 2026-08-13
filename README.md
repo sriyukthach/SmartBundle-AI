@@ -1,50 +1,28 @@
-#  SmartBundle AI
+# SmartBundle-AI 
 
-> An AI-powered, cart-aware product bundling and recommendation system designed to boost Average Order Value (AOV) for small online businesses.
-
----
-
-##  Project Overview
-
-**SmartBundle AI** dynamically analyzes items in a shopper's cart and provides real-time cross-sell recommendations with dynamic bundle discounts. It also includes a **Merchant Dashboard** to help store owners track bundle conversion rates, revenue uplift, and high-performing product combinations.
+An AI-powered merchant storefront built with **Next.js (App Router)** and connected dynamically to a Python backend and CSV product catalog. Designed to deliver smart, category-aware bundle recommendations in real time as users add items to their shopping cart.
 
 ---
 
 ##  Features
 
-* ** Cart-Aware Recommendations:** Real-time cross-selling triggered dynamically as items are added to the cart.
-* ** One-Click Bundle Add:** Add all recommended items instantly with standard bundle discounts applied automatically.
-* ** Merchant Analytics Dashboard:** Visual metrics tracking Total Revenue, Average Order Value (AOV), Bundle Conversion Rate, and Revenue Growth (Standard vs. AI Bundles).
-* ** Dynamic CSV Data Store:** Easily manage inventory, product pricing, images, and profit margins via CSV datasets.
+* **Dynamic Catalog Fetching:** Pulls all 60+ products straight from the backend API and CSV dataset (`product_id`, `name`, `category`, `price`, `stock`, `margin`) without hardcoding.
+* **Smart Cart Management:** Add items, view quantities, update order totals, and remove products effortlessly.
+* **AI Recommendation Engine:** Automatically triggers bundle recommendations when items are added to the cart, filtered to ensure clean, logical cross-selling.
+* **Admin Dashboard Link:** Quick access navigation to manage inventory metrics.
 
 ---
 
 ##  Tech Stack
 
-### **Frontend**
-* **Framework:** Next.js (TypeScript) / React
-* **Styling:** Tailwind CSS + shadcn/ui
-* **Charts:** Recharts
-
-### **Backend & ML**
-* **API Framework:** FastAPI (Python)
-* **Data Processing:** Pandas
-* **Server:** Uvicorn
+* **Frontend:** Next.js, React, Tailwind CSS, Lucide Icons, Shadcn-style UI components
+* **Backend Integration:** REST API (`/products`, `/recommend`) via secure tunneling (Serveo/Ngrok)
 
 ---
 
-##  Repository Structure
+##  Installation & Setup
 
-```text
-SmartBundle-AI/
-├── app/                  # Next.js App Router pages
-├── components/           # UI and Layout components
-│   └── ui/               # shadcn/ui primitive components
-├── backend/              # FastAPI Python backend
-│   ├── main.py           # API routes & cross-sell logic
-│   └── requirements.txt  # Python backend dependencies
-├── data/                 # CSV datasets (products & sales transactions)
-├── lib/                  # Shared utility functions
-├── ml/                   # ML models and recommendation rule sets
-├── public/               # Static assets & icons
-└── package.json          # Node.js dependencies
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/smart-bundle-ai.git](https://github.com/your-username/smart-bundle-ai.git)
+   cd smart-bundle-ai
