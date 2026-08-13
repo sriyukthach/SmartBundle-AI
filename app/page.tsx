@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { ShoppingCart, Sparkles, CheckCircle2, LayoutDashboard, Zap, Check, Trash2 } from 'lucide-react'
 
-const BACKEND_URL = 'https://c6302f492a1ffce9-103-51-54-50.serveousercontent.com'
+const BACKEND_URL = 'https://fa45aabf602000be-103-51-54-50.serveousercontent.com'
 
 interface Product {
   product_id: string
@@ -146,7 +146,7 @@ export default function Storefront() {
       <div className="flex justify-between items-center border-b border-neutral-800 pb-6">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-            <Sparkles className="w-6 h-6 text-neutral-400" /> AI Merchant Storefront
+            <Sparkles className="w-6 h-6 text-neutral-400" /> SmartBundle AI 
           </h1>
           <p className="text-sm text-neutral-400 mt-1">Powered live by Python Backend & CSV Catalog.</p>
         </div>

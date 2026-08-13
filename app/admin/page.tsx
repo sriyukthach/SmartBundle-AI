@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Sparkles, ArrowLeft, TrendingUp, Package, DollarSign, Layers } from 'lucide-react'
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, BarChart, Bar, XAxis, YAxis } from 'recharts'
 
-const BACKEND_URL = 'https://c6302f492a1ffce9-103-51-54-50.serveousercontent.com'
+const BACKEND_URL = 'https://fa45aabf602000be-103-51-54-50.serveousercontent.com'
 
 interface Product {
   product_id: string
@@ -100,7 +100,7 @@ export default function AdminDashboard() {
       <div className="flex justify-between items-center border-b border-neutral-800 pb-6">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-            <Sparkles className="w-6 h-6 text-neutral-400" /> Merchant AI Analytics
+            <Sparkles className="w-6 h-6 text-neutral-400" /> SmartBundle AI
           </h1>
           <p className="text-sm text-neutral-400 mt-1">Live catalog intelligence, inventory valuation, and real-time sales tracking.</p>
         </div>
